@@ -1,0 +1,26 @@
+{
+  "id": "pup",
+  "model": "pup.glb",
+  "source": "Hunyuan3D 2.1 shape only (Tools/ai-assets/compare/pupkin/shape/smoke_hunyuan_shape.glb, 898k tris) -> tools/art/pup_lowpoly.py (Blender 5.2: floaters, head rounded, neck relaxed, collapse-decimated, flat colours + face features set by hand). No AI Paint texture (Ruben 2026-10-25).",
+  "tris": 2234,
+  "bodyTris": 1898,
+  "height": 0.8,
+  "scale": 1,
+  "facing": "+z",
+  "feet": "y = 0, centred on the feet",
+  "materials": {
+    "fur": "#ffeca5",
+    "blush": "#f496a0",
+    "ink": "#201814",
+    "shine": "#ffffff"
+  },
+  "outline": {
+    "width": 0.016,
+    "color": "#1b1410",
+    "inked": [
+      "fur"
+    ]
+  },
+  "role": "player",
+  "note": "Player (Ruben 2026-10-25). GLB is 0.8 m tall; the game scales it to TUNING.player.modelHeight. No skeleton yet: code-only motion (src/render/playerView.ts ProceduralMotion) until a skinned GLB with clips replaces it."
+}

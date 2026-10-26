@@ -1,0 +1,15 @@
+{
+  "id": "pup",
+  "model": "pup_rigged.glb",
+  "source": "pup.glb skinned to the KayKit Rig_Medium skeleton (KayKit Character Animations 1.1, CC0, Kay Lousberg) by tools/art/pup_rig.py: bones moved to the pup's proportions (orientations kept), arm chains turned down onto the mesh arms, auto weights + rigid head/ears/face and tail. TEST: only idle + run clips.",
+  "tris": 2234,
+  "height": 0.8,
+  "scale": 1,
+  "facing": "+z",
+  "feet": "y = 0, centred on the feet",
+  "materials": { "fur": "#ffeca5", "blush": "#f496a0", "ink": "#201814", "shine": "#ffffff" },
+  "outline": { "width": 0.016, "color": "#1b1410", "inked": ["fur"] },
+  "role": "player",
+  "clips": { "idle": "Idle_A", "run": "Running_A" },
+  "note": "Loaded before manifest.json (src/render/playerView.ts PLAYER_MANIFESTS). Anims without a clip (jump, fall, slide, land) use the code motion. ?pup=code in the URL forces the unrigged pup."
+}
