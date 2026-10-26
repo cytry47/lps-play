@@ -1,0 +1,31 @@
+{
+  "id": "brawnhide",
+  "model": "brawnhide.glb",
+  "source": "Hunyuan3D 2.1 shape only from the official card render (Asset Library/moku/nomgar/cards/21_brawnhide.webp) -> tools/art/nomgar_lowpoly.py (Blender 5.2: collapse-decimated, flat colour zones + bits). No textures in-game.",
+  "tris": 1942,
+  "bodyTris": 1798,
+  "height": 2.1,
+  "scale": 1,
+  "facing": "+z",
+  "feet": "y = 0, centred on the base",
+  "footprint": {
+    "x": [
+      -0.4796,
+      0.3259
+    ],
+    "z": [
+      -0.253,
+      0.2662
+    ]
+  },
+  "outline": {
+    "width": 0.026,
+    "color": "#1b1410",
+    "inked": [
+      "skin",
+      "shade"
+    ]
+  },
+  "role": "enemy brawnhide (muscle humanoid, tank)",
+  "note": "Unrigged; code motion MARCH. Peach skin; red-peach only as shading on pecs / abs / inner upper arms; small dark eyes + faint brow as bits."
+}

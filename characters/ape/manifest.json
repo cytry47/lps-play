@@ -1,0 +1,34 @@
+{
+  "id": "ape",
+  "model": "ape.glb",
+  "source": "REAL game mesh (Tools/rea-lab/data/nomgar/extracted/meshes/SakuraApeGeometry_796.obj, 9806 tris, shared with the Sakura skin; Iron Planet colours from ApeIronPlanet_BaseColor), Moku-approved, relayed from Ruben 2026-10-25 -> tools/art/nomgar_lowpoly.py (Blender 5.2: collapse-decimated, flat colour zones + bits). No textures in-game.",
+  "tris": 3000,
+  "bodyTris": 2600,
+  "height": 1.3,
+  "scale": 1,
+  "facing": "+z",
+  "feet": "y = 0, centred on the base",
+  "footprint": {
+    "x": [
+      -0.6163,
+      0.5979
+    ],
+    "z": [
+      -0.5652,
+      0.66
+    ]
+  },
+  "outline": {
+    "width": 0.026,
+    "color": "#1b1410",
+    "inked": [
+      "brown",
+      "face",
+      "rock",
+      "moss",
+      "mouth"
+    ]
+  },
+  "role": "enemy ape (Ape, The Iron Planet: planet-ball, melee)",
+  "note": "Unrigged; code motion ROLL = rolling wobble (BALL_WOBBLE): the face stays readable; settles upright when it stops. Zones from the real texture + one front orange face cone and ears; eyes (white discs + pupils) as bits."
+}

@@ -1,0 +1,38 @@
+{
+  "id": "ronke",
+  "model": "ronke.glb",
+  "source": "REAL game mesh (Tools/rea-lab/data/nomgar/extracted/meshes/Ronke_774.obj, 6088 tris; Moku-approved, relayed from Ruben 2026-10-25), arms lowered from the A-pose -> tools/art/nomgar_lowpoly.py (Blender 5.2: collapse-decimated, flat colour zones + bits). No textures in-game.",
+  "tris": 2300,
+  "bodyTris": 1900,
+  "height": 1.5,
+  "scale": 1,
+  "facing": "+z",
+  "feet": "y = 0, centred on the base",
+  "footprint": {
+    "x": [
+      -0.5696,
+      0.5638
+    ],
+    "z": [
+      -0.3215,
+      0.399
+    ]
+  },
+  "outline": {
+    "width": 0.026,
+    "color": "#1b1410",
+    "inked": [
+      "fur",
+      "mid",
+      "legs",
+      "skin",
+      "light",
+      "muzzle",
+      "lips",
+      "white",
+      "dark"
+    ]
+  },
+  "role": "enemy ronke (blue ape, melee)",
+  "note": "Unrigged; code motion LOPE. Zones picked from the real Ronke_BaseColor texture per face, cleaned, then decimated; flat colours only in-game. Eyes = pale-cyan ring + dark pupil bits (the painted eyes vanish at this budget)."
+}

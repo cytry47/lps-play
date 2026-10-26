@@ -1,0 +1,27 @@
+{
+  "id": "ronke",
+  "model": "Ronke.glb",
+  "source": "Nomgar Clash (Moku, approved IP) Ronke.glb, exported from the game's Unity data by Tools/rea-lab/scripts/unity_to_glb.py (see Tools/rea-lab/data/nomgar/glb/CHARACTERS.md). Copied unchanged.",
+  "facingDeg": 0,
+  "moveRate": 1,
+  "height": 2.9998,
+  "footprint": {
+    "x": [
+      -1.1185,
+      1.1107
+    ],
+    "z": [
+      -0.6007,
+      1.084
+    ]
+  },
+  "outline": {
+    "color": "#1b1410",
+    "inked": [
+      "_Outlined"
+    ]
+  },
+  "clips": "picked by glTF animation extras.states (Idle/Move/Attack/Damage/Die), never by name; baked at load by src/render/skinBake.ts",
+  "role": "enemy ronke",
+  "note": "height/footprint = rest pose (Idle frame 0) in model units, measured by the bake (__mb.enemyInfo()); tuning radius = sqrt(half-width x half-depth) at the tuning height."
+}

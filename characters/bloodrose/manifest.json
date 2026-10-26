@@ -1,0 +1,37 @@
+{
+  "id": "bloodrose",
+  "model": "bloodrose.glb",
+  "source": "Hunyuan3D 2.1 shape only from the official card render (Asset Library/moku/nomgar/cards/31_bloodrose.webp) -> tools/art/nomgar_lowpoly.py (Blender 5.2: collapse-decimated, flat colour zones + bits). No textures in-game.",
+  "tris": 2216,
+  "bodyTris": 2200,
+  "height": 1.7,
+  "scale": 1,
+  "facing": "+z",
+  "feet": "y = 0, centred on the base",
+  "footprint": {
+    "x": [
+      -0.9523,
+      0.9493
+    ],
+    "z": [
+      -0.5327,
+      0.4921
+    ]
+  },
+  "outline": {
+    "width": 0.02,
+    "color": "#1b1410",
+    "inked": [
+      "petal",
+      "tip",
+      "green",
+      "stem",
+      "bell",
+      "inner",
+      "cream",
+      "gold"
+    ]
+  },
+  "role": "enemy bloodrose (flower fairy, melee)",
+  "note": "Unrigged; code motion GLIDE. Zones by position: pink petal skirt with white tips, green diamond centre petal at the hem, green bodice, yellow-green stem arms, coral bells with darker openings, cream stamens, cream head + gold top."
+}
