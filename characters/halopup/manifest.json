@@ -1,0 +1,34 @@
+{
+  "id": "halopup",
+  "model": "halopup.glb",
+  "source": "HaloPup from pupkins.moku.gg (Moku-approved), extracted 2026-10-26: Asset Library/moku/pupkins-hub/halopup/halopup.glb (19,775 tris, 25 bones, PSPS_Idle + PSPS_Run). Copied unchanged (1,457,756 bytes, under 1.5 MB). Not copied: pup-home/halopup-clips.glb (Sit / Sleep / Chill / Eat / Dig / Cute / Swim, no idle / run / jump) and pup-home/halopup-run.glb (PSPS_Run, same keyframe data as the one inside halopup.glb).",
+  "tris": 19775,
+  "scale": 1,
+  "yaw": 0,
+  "look": "toon",
+  "outline": {
+    "world": 0.032,
+    "color": "#1b1410",
+    "inked": [
+      "M_beret",
+      "M_body",
+      "M_halo",
+      "M_ribbon"
+    ],
+    "weld": true,
+    "depthPush": 0.05
+  },
+  "role": "player (character select)",
+  "clips": {
+    "idle": "PSPS_Idle",
+    "run": "PSPS_Run"
+  },
+  "clipFallback": {
+    "jump": "idle",
+    "fall": "idle",
+    "slide": "idle"
+  },
+  "layered": [],
+  "runRate": 1.0,
+  "note": "Same PSPS clip set as Schiffy but no PSPS_Jump for this pup: jump / fall play the idle clip with the code stretch / squash on top (clipFallback + ProceduralMotion), slide = idle clip + code squash/lean, land = code squash. Never in an enemy roster."
+}

@@ -1,0 +1,28 @@
+{
+  "id": "moki",
+  "model": "Moki.glb",
+  "source": "Moki from Nomgar Clash (Moku-approved IP): Tools/rea-lab/data/nomgar/glb/Moki.glb (exported from the game's Unity data by Tools/rea-lab/scripts/unity_to_glb.py; 3,223 tris, 23 bones, clips Idle / Run / Damage / Die / Skill / Attack1 / Attack2). Copied unchanged (1,525,536 bytes = 1.45 MiB, under the 1.5 MB WebP line like Golem_Child).",
+  "tris": 3223,
+  "scale": 1,
+  "yaw": 0,
+  "look": "toon",
+  "outline": {
+    "world": 0.032,
+    "color": "#1b1410",
+    "inked": ["Fur_Brown", "Leaf_Green"],
+    "weld": true
+  },
+  "role": "player (character select)",
+  "clips": {
+    "idle": "Idle",
+    "run": "Run"
+  },
+  "clipFallback": {
+    "jump": "idle",
+    "fall": "idle",
+    "slide": "idle"
+  },
+  "layered": [],
+  "runRate": 1.0,
+  "note": "No jump clip in the GLB: jump / fall play the idle clip with the code stretch / squash on top (clipFallback + ProceduralMotion), slide = idle clip + code squash/lean, land = code squash. Face meshes (Face_* materials, unlit decals) get no ink. Never in an enemy roster."
+}

@@ -1,0 +1,34 @@
+{
+  "id": "starpup",
+  "model": "starpup.glb",
+  "source": "StarPup from pupkins.moku.gg (Moku-approved), extracted 2026-10-26: Asset Library/moku/pupkins-hub/starpup/starpup.glb (22,629 tris, 25 bones, PSPS_Idle + PSPS_Run). Over 1.5 MB, so the textures were re-encoded as WebP q90 by node tools/art/webp_glbs.mjs starpup (geometry, skins, clips unchanged; the source textures are already JPEG, so it only goes 1,733,284 -> 1,731,064 bytes: the size is the geometry). Not copied: pup-home/starpup-clips.glb (Sit / Sleep / Chill / Eat / Dig / Cute / Swim, no idle / run / jump) and pup-home/starpup-run.glb (PSPS_Run, same keyframe data as the one inside starpup.glb).",
+  "tris": 22629,
+  "scale": 1,
+  "yaw": 0,
+  "look": "toon",
+  "outline": {
+    "world": 0.032,
+    "color": "#1b1410",
+    "inked": [
+      "M_StarPup_Body",
+      "M_StarPup_Bib",
+      "M_StarPup_Helmet",
+      "M_StarPup_TailStar"
+    ],
+    "weld": true,
+    "depthPush": 0.05
+  },
+  "role": "player (character select)",
+  "clips": {
+    "idle": "PSPS_Idle",
+    "run": "PSPS_Run"
+  },
+  "clipFallback": {
+    "jump": "idle",
+    "fall": "idle",
+    "slide": "idle"
+  },
+  "layered": [],
+  "runRate": 1.0,
+  "note": "Same PSPS clip set as Schiffy but no PSPS_Jump for this pup: jump / fall play the idle clip with the code stretch / squash on top (clipFallback + ProceduralMotion), slide = idle clip + code squash/lean, land = code squash. Never in an enemy roster."
+}
