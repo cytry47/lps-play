@@ -1,0 +1,27 @@
+{
+  "id": "elderbark",
+  "model": "Elderbark.glb",
+  "source": "Nomgar Clash (Moku, approved IP) Elderbark.glb, exported from the game's Unity data by Tools/rea-lab/scripts/unity_to_glb.py (see Tools/rea-lab/data/nomgar/glb/CHARACTERS.md). Copied unchanged.",
+  "facingDeg": 0,
+  "moveRate": 1,
+  "height": 0.3984,
+  "footprint": {
+    "x": [
+      -0.1651,
+      0.1651
+    ],
+    "z": [
+      -0.103,
+      0.1452
+    ]
+  },
+  "outline": {
+    "color": "#1b1410",
+    "inked": [
+      "_Outlined"
+    ]
+  },
+  "clips": "picked by glTF animation extras.states (Idle/Move/Attack/Damage/Die), never by name; baked at load by src/render/skinBake.ts",
+  "role": "boss elderbark (W1 forest tier boss; models only, spec step 6)",
+  "note": "height/footprint = rest pose (Idle frame 0) in model units, measured by the bake (bakeSkins in node, same as __mb.bossInfo()); tuning radius = sqrt(half-width x half-depth) at the full-scale tuning height (TUNING.bosses). One skinned mesh (29 bones), one material; Move state = the 'Walk' clip."
+}

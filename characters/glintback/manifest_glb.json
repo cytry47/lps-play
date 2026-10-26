@@ -1,0 +1,27 @@
+{
+  "id": "glintback",
+  "model": "Glintback.glb",
+  "source": "Nomgar Clash (Moku, approved IP) Glintback.glb, exported from the game's Unity data by Tools/rea-lab/scripts/unity_to_glb.py (see Tools/rea-lab/data/nomgar/glb/CHARACTERS.md). Copied unchanged.",
+  "facingDeg": 0,
+  "moveRate": 1,
+  "height": 1.0,
+  "footprint": {
+    "x": [
+      -0.362,
+      0.4898
+    ],
+    "z": [
+      -0.4457,
+      0.3057
+    ]
+  },
+  "outline": {
+    "color": "#1b1410",
+    "inked": [
+      "_Outlined"
+    ]
+  },
+  "clips": "picked by glTF animation extras.states (Idle/Move/Attack/Damage/Die), never by name; baked at load by src/render/skinBake.ts",
+  "role": "enemy glintback",
+  "note": "height/footprint = rest pose (Idle frame 0) in model units, measured by the bake (__mb.enemyInfo()); tuning radius = sqrt(half-width x half-depth) at the tuning height."
+}

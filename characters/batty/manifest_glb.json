@@ -1,0 +1,27 @@
+{
+  "id": "batty",
+  "model": "Batty_A.glb",
+  "source": "Nomgar Clash (Moku, approved IP) Batty_A.glb, exported from the game's Unity data by Tools/rea-lab/scripts/unity_to_glb.py (see Tools/rea-lab/data/nomgar/glb/CHARACTERS.md). Copied unchanged.",
+  "facingDeg": 0,
+  "moveRate": 1,
+  "height": 0.3321,
+  "footprint": {
+    "x": [
+      -0.2438,
+      0.2438
+    ],
+    "z": [
+      -0.126,
+      0.1185
+    ]
+  },
+  "outline": {
+    "color": "#1b1410",
+    "inked": [
+      "_Outlined"
+    ]
+  },
+  "clips": "picked by glTF animation extras.states (Idle/Move/Attack/Damage/Die), never by name; baked at load by src/render/skinBake.ts",
+  "role": "enemy batty (W2 volcano)",
+  "note": "height/footprint = rest pose (Idle frame 0) in model units, measured by the bake (bakeSkins in node, same as __mb.enemyInfo()); tuning radius = sqrt(half-width x half-depth) at the tuning height. Bat; ENEMY_VISUALS draws it hovering (render-only offset; no sim flyer yet). Move clip has a small root drift (0.036), removed by the bake."
+}
