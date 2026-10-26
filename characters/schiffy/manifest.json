@@ -1,0 +1,83 @@
+{
+  "id": "schiffy",
+  "model": "schiffy.glb",
+  "source": "tools/art/schiffy.py (Blender 5.2, built from primitives; reference docs/art/ref_schiffy_2d_*.png, the user's 2D rubber-hose design)",
+  "scale": 1,
+  "yaw": 35,
+  "outline": {
+    "width": 0.016,
+    "color": "#14100a"
+  },
+  "clips": {
+    "ground.idle": "idle",
+    "ground.aim": "shoot",
+    "ground.run": "run",
+    "ground.runshoot": "run_shoot",
+    "ground.duck": "duck",
+    "ground.duck-shoot": "duck",
+    "crouch": "crouch",
+    "land": "crouch",
+    "air": "jump",
+    "air.fall": "fall",
+    "parry": "jump",
+    "dash": "dash",
+    "ex": "shoot",
+    "super": "shoot",
+    "hit": "hit",
+    "dead": "dead",
+    "ground.aim.0": "shoot",
+    "ground.aim.45": "aim_diag_up",
+    "ground.aim.90": "aim_up",
+    "ground.aim.-45": "aim_diag_down",
+    "ground.aim.-90": "aim_down"
+  },
+  "sockets": [
+    "socket.muzzle",
+    "socket.head",
+    "socket.chest"
+  ],
+  "yawClip": {
+    "run": 60,
+    "dash": 70,
+    "jump": 60,
+    "fall": 55,
+    "duck": 55,
+    "crouch": 45,
+    "run_shoot": 40
+  },
+  "vn": {
+    "height": 285,
+    "tune": {
+      "neutral": {},
+      "happy": {
+        "sy": 1.03,
+        "head": -0.04
+      },
+      "worried": {
+        "head": 0.07,
+        "ear": 0.2,
+        "sy": 0.97,
+        "lean": 0.03
+      },
+      "surprised": {
+        "sy": 1.04,
+        "sx": 0.98,
+        "ear": -0.25
+      }
+    },
+    "faces": {
+      "neutral": [
+        "face_neutral"
+      ],
+      "happy": [
+        "face_happy"
+      ],
+      "worried": [
+        "face_worried"
+      ],
+      "surprised": [
+        "face_surprised"
+      ]
+    }
+  }
+}
