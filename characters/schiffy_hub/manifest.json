@@ -1,0 +1,33 @@
+{
+  "id": "schiffy_hub",
+  "model": "schiffy.glb",
+  "clipFiles": [
+    "schiffy-clips.glb"
+  ],
+  "source": "Schiffy from pupkins.moku.gg (Moku-approved), extracted 2026-10-26: Asset Library/moku/pupkins-hub/schiffy/schiffy.glb (4,008 tris, 87 bones, PSPS_Idle + PSPS_Run) and whale-hub/dev/avatars/schiffy-clips.glb (clips only, same skeleton). Copied unchanged. The clips file is merged at load time (tracks bind by bone name).",
+  "tris": 4008,
+  "scale": 1,
+  "yaw": 0,
+  "look": "toon",
+  "outline": {
+    "world": 0.032,
+    "color": "#1b1410",
+    "inked": [
+      "Schiffy_Body"
+    ],
+    "weld": true
+  },
+  "role": "player",
+  "clips": {
+    "idle": "PSPS_Idle",
+    "run": "PSPS_Run",
+    "jump": "PSPS_Jump"
+  },
+  "clipFallback": {
+    "fall": "jump",
+    "slide": "idle"
+  },
+  "layered": [],
+  "runRate": 1.0,
+  "note": "look: 'toon' (Ruben 2026-10-26: same as the enemies = own textures, toon shading, ink hull at the enemies' world width 0.032 with welded smooth normals) = toon shading on the painted textures + ink hull, 'tex' = the GLB's own materials, 'texink' = own materials + ink hull (?look= overrides). clipFallback: an anim without a clip plays another anim's clip (fall holds the jump clip's last pose), with the code motion on top. outline.world = ink width in metres (the pup's 0.016 model units x its 2x scale), turned into mesh units at load. ?player=pup = the old pup."
+}
