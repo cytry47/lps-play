@@ -1,0 +1,32 @@
+{
+  "id": "drillhulk",
+  "model": "drillhulk.glb",
+  "source": "Moku Nomgar card art (Asset Library/moku/nomgar/nomgar_card_roster.jpg) -> tools/art/nomgar_ref.py -> Hunyuan3D 2.1 shape only (Tools/ai-assets/compare/drillhulk/shape/smoke_hunyuan_shape.glb, 700408 tris) -> tools/art/nomgar_lowpoly.py (Blender 5.2: collapse-decimated, flat colours + face bits set by hand). No AI Paint texture (Ruben 2026-10-25).",
+  "tris": 2316,
+  "bodyTris": 2220,
+  "height": 2.2,
+  "scale": 1,
+  "facing": "+z",
+  "feet": "y = 0, centred on the base",
+  "footprint": {
+    "x": [
+      -1.8393,
+      1.8393
+    ],
+    "z": [
+      -1.3387,
+      1.338
+    ]
+  },
+  "outline": {
+    "width": 0.04,
+    "color": "#1b1410",
+    "inked": [
+      "light",
+      "mid",
+      "dark"
+    ]
+  },
+  "role": "enemy drillhulk (very slow tank / miniboss)",
+  "note": "Unrigged; code motion per instance in src/render/enemyVisuals.ts (heavy stomp/rock). Game scales it to TUNING.enemies.types.drillhulk.height. Hunyuan's square ground slab cut away and capped; red eyes as bits."
+}

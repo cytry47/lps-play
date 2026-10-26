@@ -1,0 +1,32 @@
+{
+  "id": "zahm",
+  "model": "zahm.glb",
+  "source": "Moku Nomgar card art (Asset Library/moku/nomgar/nomgar_card_roster.jpg) -> tools/art/nomgar_ref.py -> Hunyuan3D 2.1 shape only (Tools/ai-assets/compare/zahm/shape/smoke_hunyuan_shape.glb, 44958 tris) -> tools/art/nomgar_lowpoly.py (Blender 5.2: collapse-decimated, flat colours + face bits set by hand). No AI Paint texture (Ruben 2026-10-25).",
+  "tris": 1942,
+  "bodyTris": 1638,
+  "height": 1.5,
+  "scale": 1,
+  "facing": "+z",
+  "feet": "y = 0, centred on the base",
+  "footprint": {
+    "x": [
+      -0.3864,
+      0.407
+    ],
+    "z": [
+      -0.4752,
+      0.2775
+    ]
+  },
+  "outline": {
+    "width": 0.026,
+    "color": "#1b1410",
+    "inked": [
+      "fur",
+      "vest",
+      "shorts"
+    ]
+  },
+  "role": "enemy zahm (medium bruiser)",
+  "note": "Unrigged; code motion per instance in src/render/enemyVisuals.ts (bouncy shuffle). Game scales it to TUNING.enemies.types.zahm.height. Not turned (body faces front, head keeps the card's slight 3/4 turn). Antenna (lost in the ref cut) added as bits; ref needed a hard-alpha retry (first Hunyuan run came out empty)."
+}

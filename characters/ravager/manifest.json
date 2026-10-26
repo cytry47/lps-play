@@ -1,0 +1,33 @@
+{
+  "id": "ravager",
+  "model": "ravager.glb",
+  "source": "Moku Nomgar card art (Asset Library/moku/nomgar/nomgar_card_roster.jpg) -> tools/art/nomgar_ref.py -> Hunyuan3D 2.1 shape only (Tools/ai-assets/compare/ravager/shape/smoke_hunyuan_shape.glb, 782542 tris) -> tools/art/nomgar_lowpoly.py (Blender 5.2: collapse-decimated, flat colours + face bits set by hand). No AI Paint texture (Ruben 2026-10-25).",
+  "tris": 2294,
+  "bodyTris": 2198,
+  "height": 1.6,
+  "scale": 1,
+  "facing": "+z",
+  "feet": "y = 0, centred on the base",
+  "footprint": {
+    "x": [
+      -1.1021,
+      1.1021
+    ],
+    "z": [
+      -0.5674,
+      0.6645
+    ]
+  },
+  "outline": {
+    "width": 0.03,
+    "color": "#1b1410",
+    "inked": [
+      "body",
+      "top",
+      "lava",
+      "glow"
+    ]
+  },
+  "role": "enemy ravager (slow-ish elite, few)",
+  "note": "Unrigged; code motion per instance in src/render/enemyVisuals.ts (low skitter with body bob). Game scales it to TUNING.enemies.types.ravager.height. Lava crater, top band and glowing leg tips coloured by height; eyes as orange bits."
+}

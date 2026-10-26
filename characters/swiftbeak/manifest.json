@@ -1,0 +1,32 @@
+{
+  "id": "swiftbeak",
+  "model": "swiftbeak.glb",
+  "source": "Moku Nomgar card art (Asset Library/moku/nomgar/nomgar_card_roster.jpg) -> tools/art/nomgar_ref.py -> Hunyuan3D 2.1 shape only (Tools/ai-assets/compare/swiftbeak/shape/smoke_hunyuan_shape.glb, 461952 tris) -> tools/art/nomgar_lowpoly.py (Blender 5.2: collapse-decimated, flat colours + face bits set by hand). No AI Paint texture (Ruben 2026-10-25).",
+  "tris": 1344,
+  "bodyTris": 1248,
+  "height": 1.2,
+  "scale": 1,
+  "facing": "+z",
+  "feet": "y = 0, centred on the base",
+  "footprint": {
+    "x": [
+      -0.3065,
+      0.3036
+    ],
+    "z": [
+      -0.3962,
+      0.3011
+    ]
+  },
+  "outline": {
+    "width": 0.02,
+    "color": "#1b1410",
+    "inked": [
+      "body",
+      "beak",
+      "leg"
+    ]
+  },
+  "role": "enemy swiftbeak (fast runner, small count)",
+  "note": "Unrigged; code motion per instance in src/render/enemyVisuals.ts (quick bobbing strut). Game scales it to TUNING.enemies.types.swiftbeak.height. Shanks thickened x1.45 before decimating so the thin legs survive."
+}
