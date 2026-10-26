@@ -1,0 +1,27 @@
+{
+  "id": "loot_xp",
+  "model": "Scopionto_A.glb",
+  "source": "Nomgar Clash (Moku, approved IP) Scopionto_A.glb, exported from the game's Unity data by Tools/rea-lab/scripts/unity_to_glb.py (see Tools/rea-lab/data/nomgar/glb/CHARACTERS.md). Copied unchanged.",
+  "facingDeg": 0,
+  "moveRate": 1,
+  "height": 0.1804,
+  "footprint": {
+    "x": [
+      -0.07,
+      0.07
+    ],
+    "z": [
+      -0.1223,
+      0.1006
+    ]
+  },
+  "outline": {
+    "color": "#1b1410",
+    "inked": [
+      "_Outlined"
+    ]
+  },
+  "clips": "picked by glTF animation extras.states (Idle/Move/Attack/Damage/Die), never by name; baked at load by src/render/skinBake.ts",
+  "role": "enemy loot_xp (shared XP loot runner, flees later; spec section 6)",
+  "note": "height/footprint = rest pose (Idle frame 0) in model units, measured by the bake (bakeSkins in node, same as __mb.enemyInfo()); tuning radius = sqrt(half-width x half-depth) at the tuning height. Scopionto_A, cream blob."
+}

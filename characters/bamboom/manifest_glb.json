@@ -1,0 +1,27 @@
+{
+  "id": "bamboom",
+  "model": "Bamboom.glb",
+  "source": "Nomgar Clash (Moku, approved IP) Bamboom.glb, exported from the game's Unity data by Tools/rea-lab/scripts/unity_to_glb.py (see Tools/rea-lab/data/nomgar/glb/CHARACTERS.md). Copied with textures re-encoded as WebP q90 by tools/art/webp_glbs.mjs (Ruben 2026-10-26); geometry, skins, clips unchanged.",
+  "facingDeg": 0,
+  "moveRate": 1,
+  "height": 1,
+  "footprint": {
+    "x": [
+      -0.4067,
+      0.4063
+    ],
+    "z": [
+      -0.3338,
+      0.4038
+    ]
+  },
+  "outline": {
+    "color": "#1b1410",
+    "inked": [
+      "_Outlined"
+    ]
+  },
+  "clips": "picked by glTF animation extras.states (Idle/Move/Attack/Damage/Die), never by name; baked at load by src/render/skinBake.ts",
+  "role": "miniboss bamboom (W1 forest miniboss 2)",
+  "note": "height/footprint = rest pose (Idle frame 0) in model units, measured by the bake (bakeSkins in node, same as __mb.enemyInfo()); tuning radius = sqrt(half-width x half-depth) at the tuning height. Also has Skill, Spawn and Winded clips (unused now)."
+}

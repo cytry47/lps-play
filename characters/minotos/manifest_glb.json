@@ -1,0 +1,27 @@
+{
+  "id": "minotos",
+  "model": "Minotos.glb",
+  "source": "Nomgar Clash (Moku, approved IP) Minotos.glb, exported from the game's Unity data by Tools/rea-lab/scripts/unity_to_glb.py (see Tools/rea-lab/data/nomgar/glb/CHARACTERS.md). Copied with textures re-encoded as WebP q90 by tools/art/webp_glbs.mjs (Ruben 2026-10-26); geometry, skins, clips unchanged.",
+  "facingDeg": 0,
+  "moveRate": 1,
+  "height": 0.7209,
+  "footprint": {
+    "x": [
+      -0.6209,
+      0.7679
+    ],
+    "z": [
+      -0.2759,
+      0.3897
+    ]
+  },
+  "outline": {
+    "color": "#1b1410",
+    "inked": [
+      "_Outlined"
+    ]
+  },
+  "clips": "picked by glTF animation extras.states (Idle/Move/Attack/Damage/Die), never by name; baked at load by src/render/skinBake.ts",
+  "role": "miniboss minotos (W2 volcano miniboss 2)",
+  "note": "height/footprint = rest pose (Idle frame 0) in model units, measured by the bake (bakeSkins in node, same as __mb.enemyInfo()); tuning radius = sqrt(half-width x half-depth) at the tuning height. Wide claws: footprint ~2x wider than deep. Idle clip is 6.2 s long."
+}
