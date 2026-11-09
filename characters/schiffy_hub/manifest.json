@@ -12,9 +12,7 @@
   "outline": {
     "world": 0.032,
     "color": "#1b1410",
-    "inked": [
-      "Schiffy_Body"
-    ],
+    "inked": [],
     "weld": true
   },
   "role": "player",

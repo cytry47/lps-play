@@ -1,0 +1,17 @@
+{
+  "id": "poodle",
+  "model": "01_poodle_rigged.glb",
+  "clipFiles": ["../schiffy_hub/schiffy-clips.glb"],
+  "source": "Pawty dog (Tripo model rigged on Schiffy's skeleton by the ASSETS: PAWTY CHARACTERS lane): Asset Library/ours/party/pawty-chars/from_tripo/rigged/01_poodle_rigged.glb (24999 tris, 69 Schiffy joints, own Idle + Run copies). Copied unchanged (under 1.5 MB, no WebP pass). Root node Schiffy_V2_Rig carries the ground lift (kept: the game never resets it). Jump = Schiffy's PSPS_Jump from ../schiffy_hub/schiffy-clips.glb (same bone names + rest pose, tracks bind by bone name).",
+  "tris": 24999,
+  "scale": 1,
+  "yaw": 0,
+  "look": "toon",
+  "outline": { "world": 0.032, "color": "#1b1410", "inked": [], "weld": true },
+  "role": "player (character select)",
+  "clips": { "idle": "Idle", "run": "Run", "jump": "PSPS_Jump" },
+  "clipFallback": { "fall": "jump", "slide": "idle" },
+  "layered": [],
+  "runRate": 1.0,
+  "note": "Same clip plan as Schiffy (schiffy_hub): fall holds the jump clip's last pose, slide = idle clip + code squash/lean, land = code squash. Never in an enemy roster."
+}

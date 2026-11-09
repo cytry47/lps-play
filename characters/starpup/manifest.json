@@ -9,12 +9,7 @@
   "outline": {
     "world": 0.032,
     "color": "#1b1410",
-    "inked": [
-      "M_StarPup_Body",
-      "M_StarPup_Bib",
-      "M_StarPup_Helmet",
-      "M_StarPup_TailStar"
-    ],
+    "inked": [],
     "weld": true,
     "depthPush": 0.05
   },

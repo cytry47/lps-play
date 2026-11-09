@@ -9,12 +9,7 @@
   "outline": {
     "world": 0.032,
     "color": "#1b1410",
-    "inked": [
-      "M_beret",
-      "M_body",
-      "M_halo",
-      "M_ribbon"
-    ],
+    "inked": [],
     "weld": true,
     "depthPush": 0.05
   },

@@ -9,7 +9,7 @@
   "outline": {
     "world": 0.032,
     "color": "#1b1410",
-    "inked": ["Fur_Brown", "Leaf_Green"],
+    "inked": [],
     "weld": true
   },
   "role": "player (character select)",
